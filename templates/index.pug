@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title to do list
+    link(href='styles/styles.css',rel='stylesheet')
+    meta(name='viewport',content='width=device-width,initial-scale=1')
+  body
+    .app
+      header
+        img.logo(src='images/logo.png')
+        h1 to do
+      form#task-form
+        input#task-input(type='text',placeholder='add a task')
+        button#task-add(type='submit') Add
+      main
+        ul#task-list
+          li buy watermelons
+          li finish assignments
+          li get tomatoes
+      footer
+  script(src='/js/main.js')
