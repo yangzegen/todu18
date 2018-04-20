@@ -85,4 +85,11 @@ header{
             }
         }
     }
+    li[data-status="true"]{
+      background-color: #eeeeee;
+      .task-name{
+        text-decoration:line-through;
+        opacity:0.5;
+      }
+    }
 }
